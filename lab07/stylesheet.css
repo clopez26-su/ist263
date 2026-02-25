@@ -1,7 +1,9 @@
 h1 {color: #667b68;font-family: Georgia, serif; font-weight: bold;font-size: 2em;}
-p {color: #a3b899; font-family: Georgia,serif; font-size: 1.2em;}
+p {color: #a3b899; font-family: Georgia,serif; font-size: 1em;}
 body{ background-color: #fceee9;}
-link{ color: #dde6d5;}
-nav {background-color: #fceee9; padding: 10px; margin-bottom: 30px;}
-nav a {color: #dde6d5;} 
+a:link{ color: #a3b899;}
+a:visited{ color: #dde6d5;}
+nav {background-color: #f8d3c5; padding: 10px; margin-bottom: 30px;}
+nav a:link{color: #a3b899;} 
 nav a:hover {background-color: #f8d3c5;}
+nav a +a::before {content: " | "; color: #a3b899;}
