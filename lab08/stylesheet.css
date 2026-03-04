@@ -16,5 +16,5 @@ nav a + a:before {content: " | "; color: #a3b899;}
 .links-box img{width:120px;}
 .form-box input[type="text"],.form-box textarea{width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
 font-size: 1em; box-sizing: border-box;}
-.form-box input[type="submit"]{padding: 8px 20px;}:hover {background-color: #a3b899}
+.form-box input[type="submit"]{padding: 8px 20px;}
 .map-box iframe{width:100%;border-radius:8px;}
