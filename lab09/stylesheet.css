@@ -6,7 +6,7 @@ p {color: #a3b899; font-family: Georgia,serif; font-size: 1em;}
 body{ background-color: #fceee9;}
 a:link{ color: #a3b899;}
 a:visited{ color: #dde6d5;}
-nav {background-color: #f8d3c5; padding: 10px; margin-bottom: 30px;}
+nav {background-color: #e9adb4; padding: 10px; margin-bottom: 30px;}
 nav a:link{color: #a3b899;} 
 nav a:hover {background-color: #dde6d5;display: inline-block;}
 nav a + a:before {content: " | "; color: #a3b899;}
@@ -15,6 +15,7 @@ nav a + a:before {content: " | "; color: #a3b899;}
 .row-1 {background-color: #e9adb4; margin-bottom:30px;}
 .row-2 {background-color: #e9adb4;}
 .col {flex: 1; padding: 15px;}
+.col {text-align: center;}
 .links-box a{display:block; margin-bottom: 10px;}
 .links-box img{width:120px;}
 .form-box input[type="text"],.form-box textarea{width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;font-size: 1em; box-sizing: border-box;}
