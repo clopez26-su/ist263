@@ -8,6 +8,7 @@ a:link{ color: #a3b899;}
 a:visited{ color: #dde6d5;}
 nav {background-color: #e9adb4; padding: 10px; margin-bottom: 30px;}
 nav{ text-align: center;font-size: 1.4em; font-weight: bold;}
+nav a {padding: 0 15px;}
 nav a:link{color: #a3b899;} 
 nav a:hover {background-color: #dde6d5;display: inline-block;}
 nav a + a:before {content: " | "; color: #a3b899;}
