@@ -3,17 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Viewport Size</title>
     <style>
-       @media only screen and (max-width: 800px) 
-       .paragraph1{font-color: black, font-size:20px}
-       
+       body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; 
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightpink;
+       }
+       .message{
+        text-align: center;
+        font-size: 1rem;
+        font-weight:bold;
+        color: black
+       }
+       .large{display:block;}
+       .small{display:none;}
+
+       @media only screen and (max-width: 800px) { 
+       .large{display:none;}
+        .small{display:block;}
+       }
        </style>
 </head>
 <body>
-    <h1> Header</h1>
-    <p class="paragraph1"> I'm large </p>
-    <p class="paragraph2"> I'm small</p>
-
+   <div class="message"> 
+    <div class="large"> 
+        I'm large.<br>
+        <small>When the viewport is over 800 pixels.</small>   
+    </div>
+    <div class="small"> I'm small.<br>
+        <small>When the viewport is 800 pixels or less.</small>
+    </div>
 </body>
 </html>
