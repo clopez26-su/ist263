@@ -17,9 +17,11 @@ nav a + a:before {content: " | "; color: #a3b899;}
 .skillssimage {max-width: 100%; height: auto;}
 
 @media(max-width:768px)
+
 {
     nav a {display: block; width: 100%;padding: 10px 0;}
     nav span{display: none;}
+    .row-1 .col, .row-2 .col{flex-basis: 100%;}
 }
 
 .row-1, .row-2 {display: flex; flex-direction: row; gap: 20px;margin: 20px 40px;padding: 20px;border-radius: 12px;}
