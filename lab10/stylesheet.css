@@ -14,6 +14,7 @@ nav a:hover {background-color: #dde6d5;}
 nav a + a:before {content: " | "; color: #a3b899;}
 
 .headerimage {max-width: 100%; height: auto;}
+.skillssimage {max-width: 100%; height: auto;}
 
 .row-1, .row-2 {display: flex; flex-direction: row; gap: 20px;margin: 20px 40px;padding: 20px;border-radius: 12px;}
 .row-1 {background-color: #e9adb4; margin-bottom:30px;}
