@@ -1,0 +1,22 @@
+
+body{font-family: Verdana,sans-serif;
+    font-size: 16px;
+    font-weight:normal;}
+h1 {font-family: Georgia, serif; 
+    font-size: 40px;
+    font-weight:bold;
+    color: #034f84;}
+h2 {font-family: Georgia, serif; 
+    font-size: 30px;
+    font-weight:bold;
+    color:#92a8d1;}
+nav{text-align: center;
+    font-size: 1em; 
+    font-weight: bold;
+    background-color: #034f84;
+    padding: 20px; 
+    margin-bottom: 30px;}
+nav a {padding: 0 20px;color:#FFFFFF}
+nav a + a:before {content: " | ";color: #FFFFFF;}
+a:link{ color: #034f84;}
+a:visited{ color: #92a8d1;}
