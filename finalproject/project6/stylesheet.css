@@ -19,5 +19,5 @@ nav{text-align: center;
     margin-bottom: 30px;}
 nav a {padding: 0 20px;color:#FFFFFF}
 nav a + a:before {content: " | ";color: #FFFFFF;}
-a:link{ color: #034f84;}
+a:link{ color: #FFFFFF}
 a:visited{ color: #92a8d1;}
