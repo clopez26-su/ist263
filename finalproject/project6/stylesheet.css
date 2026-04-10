@@ -26,13 +26,16 @@ a:visited{ color: #92a8d1;}
   align-items: center; 
   gap: 20px;
 }
-
+ 
 .text, .text2 {
   flex: 1; 
 }
-
-.image, .image2{
-  width: 100%;
-  max-width: 400px;
+ 
+.image, .image2 {
+  flex-shrink: 0;
+}
+ 
+.image img, .image2 img {
   display: block;
+  width: 100%;
 }
