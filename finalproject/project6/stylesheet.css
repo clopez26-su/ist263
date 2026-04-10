@@ -18,6 +18,21 @@ nav{text-align: center;
     padding: 20px; 
     margin-bottom: 30px;}
 nav a {padding: 0 20px;color:#FFFFFF}
-nav a + a:before {content: " | ";color: #FFFFFF;}
 a:link{ color: #FFFFFF}
 a:visited{ color: #92a8d1;}
+
+.container, .container2 {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+}
+
+.text, .text2 {
+  flex: 1; 
+}
+
+.image, .image2{
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
