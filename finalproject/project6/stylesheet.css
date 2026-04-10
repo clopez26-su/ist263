@@ -25,6 +25,7 @@ a:visited{ color: #92a8d1;}
   display: flex;
   align-items: center; 
   gap: 20px;
+  padding:20px;
 }
  
 .text, .text2 {
@@ -33,9 +34,11 @@ a:visited{ color: #92a8d1;}
  
 .image, .image2 {
   flex-shrink: 0;
+  max-width: 250px;
 }
  
 .image img, .image2 img {
   display: block;
   width: 100%;
+  height: auto
 }
