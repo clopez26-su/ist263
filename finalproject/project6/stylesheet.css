@@ -33,7 +33,7 @@ a:visited{ color: #92a8d1;}
 
 .container, .container2 {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 40px;
   padding: 20px;
   text-align: left;
@@ -48,6 +48,7 @@ a:visited{ color: #92a8d1;}
  
 .text, .text2 {
   flex: 1;
+  justify-content: center;
 }
  
 .image, .image2 {
