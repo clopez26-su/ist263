@@ -105,6 +105,7 @@ h2 {
 /* Download button */
 .download-btn {
   display: inline-block;
+  align-self: center;
   margin-top: 20px;
   padding: 8px 16px;
   background-color: #4a6fa5;
