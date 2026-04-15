@@ -1,3 +1,27 @@
+.skip-link {
+    position: fixed;
+    top: 60px;
+    left: -180px;
+    z-index: 9999;
+    background-color: #667b68;
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 3px solid #fff;
+    border-radius: 0 6px 6px 0;
+    text-decoration: none;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    transition: left 0.3s ease;
+    width: 180px;
+    box-sizing: border-box;
+}
+.skip-link:focus,
+nav:hover ~ .skip-link {
+    left: 0;
+}
+
 h1 {color: #667b68;font-family: Georgia, serif; font-weight: bold;font-size: 2em;}
 #page-title{text-align:center;}
 #description {text-align:center;}
