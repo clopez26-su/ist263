@@ -75,6 +75,26 @@ h2 {
   object-fit: cover;
   object-position: center;
 }
+
+/* home page containers use media-box directly */
+.container .media-box,
+.container2 .media-box {
+  flex-shrink: 0;
+  width: 400px;
+  max-height: 500px;
+}
+
+.container .media-box img,
+.container2 .media-box img {
+  max-height: 460px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.resume-media-box {
+  flex-shrink: 0;
+  width: 300px;
+}
  
 /* ── Resume section ── */
 .resume-container {
@@ -86,11 +106,6 @@ h2 {
 .resume-image {
   flex-shrink: 0;
   max-width: 300px;
-}
-.resume-image img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 .resume-text {
   flex: 1;
