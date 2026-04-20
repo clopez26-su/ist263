@@ -275,3 +275,155 @@ footer a:visited { color: #ffffff; }
     padding: 24px;
   }
 }
+/* ── Social Media Page ── */
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px 60px;
+}
+
+.page-intro, .page-outro {
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.page-outro {
+  margin-top: 40px;
+}
+
+.media-section {
+  margin-bottom: 50px;
+}
+
+.media-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.media-flex.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Blue rounded box behind media */
+.media-box {
+  flex-shrink: 0;
+  width: 420px;
+  background-color: #034f84;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.media-box img,
+.media-box video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.media-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.media-text h2 {
+  margin-bottom: 12px;
+}
+
+/* ── Slideshow ── */
+.slideshow {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.25);
+  color: white;
+  border: none;
+  font-size: 2em;
+  padding: 4px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1;
+}
+
+.slide-btn:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.slide-btn.prev { left: 6px; }
+.slide-btn.next { right: 6px; }
+
+.slide-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ffffff;
+}
+
+/* ── Responsive for social media page ── */
+@media (max-width: 768px) {
+  .page-content {
+    padding: 0 20px 40px;
+  }
+
+  .media-flex,
+  .media-flex.reverse {
+    flex-direction: column;
+  }
+
+  .media-box {
+    width: 100%;
+  }
+}
+
+/* ── Stacked section: heading + text above, media below ── */
+.media-section-stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.media-section-stacked .download-btn {
+  margin-bottom: 20px;
+}
+
+.media-box-centered {
+  width: 100%;
+  max-width: 640px;
+}
