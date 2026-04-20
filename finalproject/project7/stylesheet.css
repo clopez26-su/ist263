@@ -431,7 +431,12 @@ footer a:visited { color: #ffffff; }
 .media-section-stacked {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.media-section-stacked h2,
+.media-section-stacked p {
+  width: 100%;
 }
 
 .media-section-stacked .download-btn {
@@ -441,4 +446,5 @@ footer a:visited { color: #ffffff; }
 .media-box-centered {
   width: 460px;
   max-width: 100%;
+  margin: 0 auto;
 }
