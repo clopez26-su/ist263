@@ -439,6 +439,6 @@ footer a:visited { color: #ffffff; }
 }
 
 .media-box-centered {
-  width: 100%;
-  max-width: 640px;
+  width: 460px;
+  max-width: 100%;
 }
