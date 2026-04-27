@@ -10,6 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
 </head>
+<script>
+  const name = "Hi, I'm Ciane Lopez.";
+  const el = document.getElementById('typed-name');
+  let i = 0;
+  function type() {
+    if (i < name.length) {
+      el.textContent += name.charAt(i);
+      i++;
+      setTimeout(type, 80); //Adjust typing spped here
+    }
+  }
+  type();
+</script>
 <body>
 
   <nav>
@@ -19,7 +32,7 @@
     <a href="home.html#contact">Contact</a>
   </nav>
 
-  <h1 id="main-content">Hi, I'm Ciane Lopez.</h1>
+  <h1 id="main-content"><span id="typed-name"></span></h1>
 
   <div class="container">
     <div class="media-box">
