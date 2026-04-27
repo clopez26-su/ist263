@@ -10,19 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
 </head>
-<script>
-  const name = "Hi, I'm Ciane Lopez.";
-  const el = document.getElementById('typed-name');
-  let i = 0;
-  function type() {
-    if (i < name.length) {
-      el.textContent += name.charAt(i);
-      i++;
-      setTimeout(type, 80); //Adjust typing spped here
-    }
-  }
-  type();
-</script>
 <body>
 
   <nav>
@@ -136,6 +123,19 @@
       }
     });
   });
+</script>
+<script>
+  const name = "Hi, I'm Ciane Lopez.";
+  const el = document.getElementById('typed-name');
+  let i = 0;
+  function type() {
+    if (i < name.length) {
+      el.textContent += name.charAt(i);
+      i++;
+      setTimeout(type, 80); //Adjust typing spped here
+    }
+  }
+  type();
 </script>
 </body>
 </html>
