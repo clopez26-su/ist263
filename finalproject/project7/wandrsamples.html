@@ -21,7 +21,7 @@
 
   <div class="page-content">
 
-    <h1 id="main-content"><span id="typed-name"></span></h1>
+    <h1 id="main-content"><span id="typed-name">My Writing and Research Samples</span></h1>
 
     <p class="page-intro">
       The public relations industry relies on critical thinking and strategic writing.
@@ -113,6 +113,7 @@
     // Typing animation
     const typedEl = document.getElementById('typed-name');
     const typedText = "My Writing and Research Samples";
+    typedEl.textContent = ''; // Clear initial text
     let i = 0;
     function type() {
       if (i < typedText.length) {

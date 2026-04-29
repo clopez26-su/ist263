@@ -21,7 +21,7 @@
  
   <div class="page-content">
  
-    <h1 id="main-content"><span id="typed-name"></span></h1>
+    <h1 id="main-content"><span id="typed-name">My Social Media Designs</span></h1>
  
     <p class="page-intro">
       Throughout the duration of my personal and professional experiences,
@@ -116,6 +116,7 @@
     // Typing animation
     const typedEl = document.getElementById('typed-name');
     const typedText = "My Social Media Designs";
+    typedEl.textContent = ''; // Clear initial text
     let i = 0;
     function type() {
       if (i < typedText.length) {
