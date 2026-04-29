@@ -11,6 +11,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to Content</a>
 
   <nav>
     <a href="home.html">Home</a>
@@ -109,11 +110,23 @@
     <a href="home.html#contact">Contact</a>
   </footer>
 
+  <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679; Back to Top</button>
+
   <script>
+    // Back to top visibility
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+
     // Typing animation
     const typedEl = document.getElementById('typed-name');
     const typedText = "My Writing and Research Samples";
-    typedEl.textContent = ''; // Clear initial text
+    typedEl.textContent = '';
     let i = 0;
     function type() {
       if (i < typedText.length) {
