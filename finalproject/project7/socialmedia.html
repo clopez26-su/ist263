@@ -20,7 +20,7 @@
     <a href="home.html#contact">Contact</a>
   </nav>
  
-  <div class="page-content">
+  <div class="page-content" role="main">
  
     <h1 id="main-content"><span id="typed-name">My Social Media Designs</span></h1>
  
@@ -112,20 +112,7 @@
     <a href="wandrsamples.html">Writing Samples</a>
     <a href="home.html#contact">Contact</a>
   </footer>
- 
-  <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679; Back to Top</button>
-
-  <script>
-    // Back to top visibility
-    const backToTop = document.getElementById('back-to-top');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        backToTop.classList.add('visible');
-      } else {
-        backToTop.classList.remove('visible');
-      }
-    });
-
+<script>
     // Typing animation
     const typedEl = document.getElementById('typed-name');
     const typedText = "My Social Media Designs";
